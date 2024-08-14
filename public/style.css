@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+
+label {
+    font-size: 20px;
+    color: #e0e0e0;
+}
+
+input[type="number"],
+button {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border: 1px solid #555;
+    background-color: #000000;
+    color: #e0e0e0;
+    outline: none;
+}
+
+input[type="number"]:focus,
+button:hover {
+    border-color: #82e8ef;
+    background-color: #4c4c4c;
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #82e8ef;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+#userTable {
+
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #000000;
+    color: #e0e0e0;
+    margin-top: 20px;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+}
+
+.table-container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+#userTable th {
+    background-color: #2b2a2a;
+    color: #e0e0e0;
+    font-weight: normal;
+
+}
+
+#userTable th,
+#userTable td {
+    border: 1px solid #343434;
+    padding: 12px;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+}
+
+#userTable tbody tr:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+#userTable img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #82e8ef;
+}
+
+h1 {
+    text-align: center;
+    color: #e0e0e0;
+}
+
+p {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#resultInfo {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: #82e8ef;
+}
+
+#paginationControls {
+    margin-top: 20px;
+}
+
+#pageInfo {
+    margin-top: 20px;
+}
+
+#paginationControls button {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 2px;
+    border-radius: 15px;
+    border: 1px solid #555;
+    background-color: #000000;
+    color: #dfdada;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#paginationControls button:hover {
+    background-color: #555;
+}
+
+#paginationControls button.active {
+    border: 3px solid #82e8ef;
+    font-weight: bold;
+}
+
+#paginationControls button:disabled {
+    background-color: #555;
+    color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
